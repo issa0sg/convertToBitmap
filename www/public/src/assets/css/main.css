@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #2c2c2c;
+}
+
+header {
+  height: 80px;
+  background-color: #1c1c1c;
+}
+
+nav ul.menu {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 15px;
+}
+
+nav ul.menu li a {
+  text-decoration: none;
+  color: #0ff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.buttons button {
+  margin: 10px 0;
+  /* Add a 10px top and bottom margin to each button */
+}
+
+nav ul.menu li a:hover {
+  color: #08f;
+}
+
+/* ... your existing CSS from the previous answer ... */
+
+/* ... your existing CSS from the previous answer ... */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+.container {
+  background-color: rgba(28, 28, 28, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .content-wrapper {
+  width: 100%;
+  /* max-width: 800px; */
+/* display: flex; */
+/* flex-direction: column; */
+/* align-items: center; */
+/* } */
+
+.file-selection {
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  /* Added to stack elements vertically */
+  justify-content: center;
+  /* Updated to center elements vertically */
+  align-items: center;
+}
+
+.main-select__button {
+  background-color: #3af;
+  border: 2px solid #28e;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.main-btn {
+  background-color: #3af;
+  border: 2px solid #28e;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.file-upload-btn:hover {
+  background-color: #28e;
+  border-color: #3af;
+}
+
+#file-upload {
+  display: none;
+}
+
+.secondary-btn {
+  height: 50px;
+  background-color: #555;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.container-select {
+  height: 130px;
+  display: grid;
+  place-items: center;
+}
+
+.upload-btn:hover {
+  background-color: #777;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 1100px;
+}
+
+.image {
+  max-width: 45%;
+  object-fit: cover;
+}

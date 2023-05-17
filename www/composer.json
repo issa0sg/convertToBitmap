@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4":{
+            "reiatsu\\": "vendor/reiatsu",
+            "app\\": "app"
+        }
+    },
+    "require": {
+        "gabordemooij/redbean": "^5.7"
+    }
+}
